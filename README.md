@@ -1,2 +1,154 @@
-# olga_kids_shop.ua
-My first project on GitHub
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>olga_kids_shop | Магазин дитячих товарів</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f8ff;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background: #ff69b4;
+      color: white;
+      text-align: center;
+      padding: 30px 10px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+    header p {
+      font-size: 18px;
+    }
+    .contact {
+      text-align: center;
+      margin: 30px 10px;
+    }
+    .contact a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 22px;
+      background: #ff69b4;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    .contact a:hover {
+      background: #e0559f;
+    }
+    .store-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+    .product-images {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+      flex-wrap: wrap;
+    }
+    .product-images .image {
+      width: 22%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .product-images img {
+      width: 100%;
+      max-width: 250px;
+      border-radius: 10px;
+    }
+    .product-images .caption {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #fbeff7;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🧸 olga_kids_shop</h1>
+  <p>Дитячі речі з любов'ю 💖 Якість, комфорт і турбота для малюків</p>
+</header>
+
+<div class="contact">
+  <p>📞 Зв’язатися з Ольгою:</p>
+  <a href="tel:0660631233">Зателефонувати</a>
+  <a href="https://t.me/0660631233" target="_blank">Telegram</a>
+  <a href="viber://chat?number=+380660631233">Viber</a>
+</div>
+
+<div class="store-container">
+  <!-- Місце для фото товарів -->
+  <div class="product-images">
+    <div class="image">
+      <img src="<a href="https://ibb.co/JRJd852c"><img src="https://i.ibb.co/JRJd852c/photo-2025-04-12-20-40-59.jpg" alt="photo-2025-04-12-20-40-59" border="0"></a> ✅В наявності ✅ 
+Нереально гарний костюм Adidas яскравий, стильний.  
+Виробник Туреччина 510 грн.  
+-06 міс  
+-09 міс  
+-12 міс  
+-15міс  
+-18 міс  
+-24 міс
+      
+    </div>
+    <div class="image">
+      <img src="<a href="https://ibb.co/DfJ2w317"><img src="https://i.ibb.co/DfJ2w317/photo-2025-04-12-20-44-09.jpg" alt="photo-2025-04-12-20-44-09" border="0"></a>✅В наявності✅
+Костюм СAP 🦁від ZARA Виробник Туреччина 🇹🇷 с  
+690 грн 💕
+-92 (2 роки)💞 
+104 ( 4 роки)💞  
+116 (6 років)💞
+128 (8 років)💞
+
+    </div>
+    <div class="image">
+      <img src="<a href="https://ibb.co/rR4YJSmP"><img src="https://i.ibb.co/rR4YJSmP/photo-2025-04-12-20-49-40.jpg" alt="photo-2025-04-12-20-49-40" border="0"></a>✅В наявності✅
+Костюм NIKE Виробник Туреччина 🇹🇷 с
+850 грн💲
+5-6🍊
+7-8🍊
+9-10🍊
+>
+    </div>
+    <div class="image">
+      <img src="<a href="https://ibb.co/VWHZwhkm"><img src="https://i.ibb.co/VWHZwhkm/photo-2025-04-12-21-01-53.jpg" alt="photo-2025-04-12-21-01-53" border="0"></a>=✅Світшот для хлопчиків виробник Туреччина 🇹🇷 . В наявності. ✅
+610грн 📈  
+Розміри: 
+13 років💚 (158см),
+14 років💚 (164см), 
+15 років💚 (170 см), 
+16 років💚 (176 см)- розміри вказані на бірці
+
+    </div>
+  </div>
+
+  <!-- ✅ СЮДИ ВСТАВ КОД ІЗ Ecwid -->
+  <div id="my-store-12345678"></div>
+  <div>
+    <script data-cfasync="false" type="text/javascript"
+      src="https://app.ecwid.com/script.js?12345678&data_platform=code&data_date=2025-04-12"
+      charset="utf-8"></script>
+    <script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3)"); </script>
+  </div>
+  <!-- 🔁 Заміни 12345678 на свій Ecwid Store ID -->
+</div>
+
+<footer>
+  <p>&copy; 2025 olga_kids_shop | Всі права захищені</p>
+</footer>
+
+</body>
+</html>
